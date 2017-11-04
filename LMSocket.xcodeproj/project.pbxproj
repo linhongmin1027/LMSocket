@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0445291FAD91630075F04E /* LMJiuduSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0445281FAD91630075F04E /* LMJiuduSocketManager.m */; };
+		0F09B3641FAD33CF004ED6E0 /* LMAsynSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F09B3631FAD33CF004ED6E0 /* LMAsynSocketManager.m */; };
+		0F09B3671FAD6368004ED6E0 /* LMWebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F09B3661FAD6368004ED6E0 /* LMWebSocketManager.m */; };
+		8463A1E41FAC63A700454F96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463A1E31FAC63A700454F96 /* AppDelegate.m */; };
+		8463A1E71FAC63A700454F96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463A1E61FAC63A700454F96 /* ViewController.m */; };
+		8463A1EA1FAC63A700454F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463A1E81FAC63A700454F96 /* Main.storyboard */; };
+		8463A1EC1FAC63A700454F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8463A1EB1FAC63A700454F96 /* Assets.xcassets */; };
+		8463A1EF1FAC63A700454F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8463A1ED1FAC63A700454F96 /* LaunchScreen.storyboard */; };
+		8463A1F21FAC63A700454F96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463A1F11FAC63A700454F96 /* main.m */; };
+		8463A1FD1FAC695400454F96 /* LMNatureSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8463A1FC1FAC695400454F96 /* LMNatureSocketManager.m */; };
+		A61CBA18EAD9410CB9755739 /* libPods-LMSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 237671F60ED020A8EC0E6BF1 /* libPods-LMSocket.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D07EF4CF86FC19337C0438 /* Pods-LMSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMSocket.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMSocket/Pods-LMSocket.release.xcconfig"; sourceTree = "<group>"; };
+		0F0445271FAD91630075F04E /* LMJiuduSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJiuduSocketManager.h; sourceTree = "<group>"; };
+		0F0445281FAD91630075F04E /* LMJiuduSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMJiuduSocketManager.m; sourceTree = "<group>"; };
+		0F09B3621FAD33CF004ED6E0 /* LMAsynSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMAsynSocketManager.h; sourceTree = "<group>"; };
+		0F09B3631FAD33CF004ED6E0 /* LMAsynSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMAsynSocketManager.m; sourceTree = "<group>"; };
+		0F09B3651FAD6368004ED6E0 /* LMWebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMWebSocketManager.h; sourceTree = "<group>"; };
+		0F09B3661FAD6368004ED6E0 /* LMWebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMWebSocketManager.m; sourceTree = "<group>"; };
+		0F09B3691FAD7531004ED6E0 /* gcdservice.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = gcdservice.js; sourceTree = "<group>"; };
+		0F09B36A1FAD7531004ED6E0 /* wsservice.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = wsservice.js; sourceTree = "<group>"; };
+		237671F60ED020A8EC0E6BF1 /* libPods-LMSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9AD47DF956533AAEF112CB /* Pods-LMSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMSocket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMSocket/Pods-LMSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		8463A1DF1FAC63A700454F96 /* LMSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463A1E21FAC63A700454F96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8463A1E31FAC63A700454F96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8463A1E51FAC63A700454F96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8463A1E61FAC63A700454F96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8463A1E91FAC63A700454F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8463A1EB1FAC63A700454F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8463A1EE1FAC63A700454F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8463A1F01FAC63A700454F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8463A1F11FAC63A700454F96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8463A1FB1FAC695400454F96 /* LMNatureSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMNatureSocketManager.h; sourceTree = "<group>"; };
+		8463A1FC1FAC695400454F96 /* LMNatureSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMNatureSocketManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8463A1DC1FAC63A700454F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61CBA18EAD9410CB9755739 /* libPods-LMSocket.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F0445261FAD91440075F04E /* LMJiuduSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F0445271FAD91630075F04E /* LMJiuduSocketManager.h */,
+				0F0445281FAD91630075F04E /* LMJiuduSocketManager.m */,
+			);
+			name = LMJiuduSocketManager;
+			path = LMSocketManager/LMJiuduSocketManager;
+			sourceTree = "<group>";
+		};
+		0F09B3681FAD7531004ED6E0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0F09B3691FAD7531004ED6E0 /* gcdservice.js */,
+				0F09B36A1FAD7531004ED6E0 /* wsservice.js */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		8463A1D61FAC63A700454F96 = {
+			isa = PBXGroup;
+			children = (
+				8463A1E11FAC63A700454F96 /* LMSocket */,
+				8463A1E01FAC63A700454F96 /* Products */,
+				FD33436E8A7EC4E94D62963F /* Pods */,
+				C13C478C43056D8357A78753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8463A1E01FAC63A700454F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8463A1DF1FAC63A700454F96 /* LMSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8463A1E11FAC63A700454F96 /* LMSocket */ = {
+			isa = PBXGroup;
+			children = (
+				0F09B3681FAD7531004ED6E0 /* Resource */,
+				8463A1F81FAC692300454F96 /* LMNatureSocketManager */,
+				8463A1FA1FAC692300454F96 /* LMAsynSocketManager */,
+				8463A1F91FAC692300454F96 /* LMWebsocketManager */,
+				0F0445261FAD91440075F04E /* LMJiuduSocketManager */,
+				8463A1E21FAC63A700454F96 /* AppDelegate.h */,
+				8463A1E31FAC63A700454F96 /* AppDelegate.m */,
+				8463A1E51FAC63A700454F96 /* ViewController.h */,
+				8463A1E61FAC63A700454F96 /* ViewController.m */,
+				8463A1E81FAC63A700454F96 /* Main.storyboard */,
+				8463A1EB1FAC63A700454F96 /* Assets.xcassets */,
+				8463A1ED1FAC63A700454F96 /* LaunchScreen.storyboard */,
+				8463A1F01FAC63A700454F96 /* Info.plist */,
+				8463A1F11FAC63A700454F96 /* main.m */,
+			);
+			path = LMSocket;
+			sourceTree = "<group>";
+		};
+		8463A1F81FAC692300454F96 /* LMNatureSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				8463A1FB1FAC695400454F96 /* LMNatureSocketManager.h */,
+				8463A1FC1FAC695400454F96 /* LMNatureSocketManager.m */,
+			);
+			name = LMNatureSocketManager;
+			path = LMSocketManager/LMNatureSocketManager;
+			sourceTree = "<group>";
+		};
+		8463A1F91FAC692300454F96 /* LMWebsocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F09B3651FAD6368004ED6E0 /* LMWebSocketManager.h */,
+				0F09B3661FAD6368004ED6E0 /* LMWebSocketManager.m */,
+			);
+			name = LMWebsocketManager;
+			path = LMSocketManager/LMWebsocketManager;
+			sourceTree = "<group>";
+		};
+		8463A1FA1FAC692300454F96 /* LMAsynSocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F09B3621FAD33CF004ED6E0 /* LMAsynSocketManager.h */,
+				0F09B3631FAD33CF004ED6E0 /* LMAsynSocketManager.m */,
+			);
+			name = LMAsynSocketManager;
+			path = LMSocketManager/LMAsynSocketManager;
+			sourceTree = "<group>";
+		};
+		C13C478C43056D8357A78753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237671F60ED020A8EC0E6BF1 /* libPods-LMSocket.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD33436E8A7EC4E94D62963F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A9AD47DF956533AAEF112CB /* Pods-LMSocket.debug.xcconfig */,
+				02D07EF4CF86FC19337C0438 /* Pods-LMSocket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8463A1DE1FAC63A700454F96 /* LMSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8463A1F51FAC63A700454F96 /* Build configuration list for PBXNativeTarget "LMSocket" */;
+			buildPhases = (
+				2CD5B9C98E0AFF7B04E945D0 /* [CP] Check Pods Manifest.lock */,
+				8463A1DB1FAC63A700454F96 /* Sources */,
+				8463A1DC1FAC63A700454F96 /* Frameworks */,
+				8463A1DD1FAC63A700454F96 /* Resources */,
+				7936E5B8CB7DE0DD965425E1 /* [CP] Embed Pods Frameworks */,
+				DBF60595F70752A1BFADB9ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMSocket;
+			productName = LMSocket;
+			productReference = 8463A1DF1FAC63A700454F96 /* LMSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8463A1D71FAC63A700454F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LMSocket;
+				TargetAttributes = {
+					8463A1DE1FAC63A700454F96 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8463A1DA1FAC63A700454F96 /* Build configuration list for PBXProject "LMSocket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8463A1D61FAC63A700454F96;
+			productRefGroup = 8463A1E01FAC63A700454F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8463A1DE1FAC63A700454F96 /* LMSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8463A1DD1FAC63A700454F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463A1EF1FAC63A700454F96 /* LaunchScreen.storyboard in Resources */,
+				8463A1EC1FAC63A700454F96 /* Assets.xcassets in Resources */,
+				8463A1EA1FAC63A700454F96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD5B9C98E0AFF7B04E945D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LMSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7936E5B8CB7DE0DD965425E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMSocket/Pods-LMSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF60595F70752A1BFADB9ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMSocket/Pods-LMSocket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8463A1DB1FAC63A700454F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8463A1E71FAC63A700454F96 /* ViewController.m in Sources */,
+				8463A1F21FAC63A700454F96 /* main.m in Sources */,
+				0F09B3671FAD6368004ED6E0 /* LMWebSocketManager.m in Sources */,
+				0F0445291FAD91630075F04E /* LMJiuduSocketManager.m in Sources */,
+				8463A1FD1FAC695400454F96 /* LMNatureSocketManager.m in Sources */,
+				8463A1E41FAC63A700454F96 /* AppDelegate.m in Sources */,
+				0F09B3641FAD33CF004ED6E0 /* LMAsynSocketManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8463A1E81FAC63A700454F96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8463A1E91FAC63A700454F96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8463A1ED1FAC63A700454F96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8463A1EE1FAC63A700454F96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8463A1F31FAC63A700454F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8463A1F41FAC63A700454F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8463A1F61FAC63A700454F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9AD47DF956533AAEF112CB /* Pods-LMSocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LM9Y47E8Q;
+				INFOPLIST_FILE = LMSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linhongmin.LMSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8463A1F71FAC63A700454F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D07EF4CF86FC19337C0438 /* Pods-LMSocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LM9Y47E8Q;
+				INFOPLIST_FILE = LMSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linhongmin.LMSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8463A1DA1FAC63A700454F96 /* Build configuration list for PBXProject "LMSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463A1F31FAC63A700454F96 /* Debug */,
+				8463A1F41FAC63A700454F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8463A1F51FAC63A700454F96 /* Build configuration list for PBXNativeTarget "LMSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8463A1F61FAC63A700454F96 /* Debug */,
+				8463A1F71FAC63A700454F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8463A1D71FAC63A700454F96 /* Project object */;
+}
